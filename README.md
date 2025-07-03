@@ -1,7 +1,7 @@
 # grafana_camera_go2rtc
 Dashboard para câmeras no Grafana via go2rtc docker
 
-![Title](camera grafana dashboard.png)
+![Title](cameragrafanadashboard.png)
 
 No Grafana, podemos ter a visualização em tempo real de câmeras IPs via protocolo RTSP através do go2rtc.
 Como o grafana não suporta nativamente conexões RTSP, podemos usar o **go2rtc** para intermediar a conexão, no exemplo abaixo, subo o go2rtc via Docker.
