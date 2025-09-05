@@ -48,6 +48,25 @@ Subindo o container:
 docker run -d --name go2rtc   -v $(pwd)/go2rtc.yaml:/config/go2rtc.yaml   -p 1984:1984   alexxit/go2rtc
 ````
 
+### Segurança
+
+Podemos adicionar uma senha para entrar no go2rtc, basta adicionar os parâmetros no .yaml.
+````
+api:
+  listen: ":1984"
+  username: admin
+  password: "senha"
+
+rtsp:
+  listen: ":8554"
+
+webrtc:
+  listen: ":8555"
+
+http:
+  listen: ":8083"
+````
+
 #docker ps
 ![Title](dockerps.png)
 
