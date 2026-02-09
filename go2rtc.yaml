@@ -1,0 +1,8 @@
+streams:
+  Entrada_Almoxarifado:
+    - "rtsp://user:senha@ip:554/cam/realmonitor?channel=1&subtype=1"
+  Forno:
+    - rtsp://user:senha@ip:554/cam/realmonitor?channel=1&subtype=1
+
+api:
+  listen: ":1984"
